@@ -12,6 +12,7 @@ Flexible and Extensible
 Extensive support libraries
 Beginer freindly
 Portable
+
 Highly scalable
 Cons:
 Slower than compiled languages
