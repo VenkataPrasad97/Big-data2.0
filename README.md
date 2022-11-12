@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @VenkataPrasad97
-- 👀 I’m interested in ... Statistics, Programming & Simulation
-- 🌱 I’m currently learning ... Python
+- 👀 I’m interested in ... Statistics, Programming & Data Science
+- 🌱 I’m currently learning ... Python, R, SQL, Tableau, Apache Hadoop and Apache Hive.
 - 💞️ I’m looking to collaborate on ... Data Science projects
 
 <!---
