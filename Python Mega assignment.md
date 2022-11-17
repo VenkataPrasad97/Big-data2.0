@@ -298,10 +298,16 @@ Q45. What are sets in Python?
 Sets are used to store multiple items in a single variable. A set is a collection which is unordered, unchangeable (but can remove items and add new items), unindexed, and do not allow duplicate values.
 
 Q46. How can you create a set?
+Set is created by placing the values inside the {} and seperate elements by comma (,).
 
 Q47. Create a set and add "iNeuron" in your set.
+Code:
+a={"I'm","doing","Big","Data",2.0,"Course","from"}
+a.add("iNeuron")
+print(a)
 
 Q48. Try to add multiple values using add() function.
+We can use add() function mulitple times or we can use update function which adds two sets.
 
 Q49. How is update() different from add()?
 
