@@ -308,20 +308,52 @@ print(a)
 
 Q48. Try to add multiple values using add() function.
 We can use add() function mulitple times or we can use update function which adds two sets.
+Code 1:
+a={"I'm"}
+a.add("doing")
+b=["doing","Big","Data",2.0,"Course","from","iNeuron"]
+for i in b:
+    a.add(i)
+print(a)
+#Note_I_put one duplicate value_ but it was removed in output. Sets only have distinct values.
+Code 2:
+a={"I'm"}
+b={"doing","Big","Data",2.0,"Course","from","iNeuron"}
+a.update(b)
+print(a)
 
 Q49. How is update() different from add()?
+We use add() method to add single value to a set. We use update() method to add sequence values to a set.
 
 Q50. What is clear() in sets?
-
+clear() method is used to remove all the elements from a Set. Using the clear() method only clears all the element from the set and not deletes the set.
 Q51. What is frozen set?
-
+Its an immutable set. We can convert tuples, list directly to frozenset using command frozenset(). Dictionaries only keys gets stored in frozenset().
 Q52. How is frozen set different from set?
-
+Only difference is Set is mutable and frozenset is immutable.
 Q53. What is union() in sets? Explain via code.
+The union() method returns a new set with elements from the set and all other sets (passed as an argument).
+Code:
+A = {'a', 'c', 'd'}
+B = {'c', 'd', 2 }
+C = {1, 2, 3}
+
+print('A U B =', A.union(B))
+print('B U C =', B.union(C))
+print('A U B U C =', A.union(B, C))
 
 Q54. What is intersection() in sets? Explain via code.
+intersection() method returns the intersection of set A with all the sets (passed as argument).
+Code:
+A = {2, 3, 5, 4}
+B = {2, 5, 100}
+C = {2, 3, 8, 9, 10}
+print(B.intersection(A))
+print(B.intersection(C))
+print(A.intersection(C))
+print(C.intersection(A, B))
 
-Q55. What is dictionary ibn Python?
+Q55. What is dictionary in Python?
 
 Q56. How is dictionary different from all other data structures.
 
