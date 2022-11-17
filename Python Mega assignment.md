@@ -280,12 +280,22 @@ Q41. How can you create a tuple in Python?
 Tuple is created by placing the values inside the () and seperate elements by comma (,).
 
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+Can't modify the contents of the tuple, because tuple is immutable. We can reassign the entire tuple again or we can add (extend)our name by declaring it in another tuple and add it using '+' operator.
 
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+Yes, two tuples can be appended.
+Code:
+a=('a','b','c')
+b=(1,2,3)
+print(a+b)
 
 Q44. Take a tuple as an input and print the count of elements in it.
+Code:
+a=tuple(input().split())
+len(a)
 
 Q45. What are sets in Python?
+Sets are used to store multiple items in a single variable. A set is a collection which is unordered, unchangeable (but can remove items and add new items), unindexed, and do not allow duplicate values.
 
 Q46. How can you create a set?
 
