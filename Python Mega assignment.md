@@ -354,33 +354,74 @@ print(A.intersection(C))
 print(C.intersection(A, B))
 
 Q55. What is dictionary in Python?
+Dictionaries are used to store data values in key:value pairs
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
 
 Q56. How is dictionary different from all other data structures.
-
+Dictionary have unique way of storing data values in key:value pairs.
 Q57. How can we delare a dictionary in Python?
+Dictionary is created by placing the key:value pairs inside the {} and seperate element pairs by comma (,).
+{key1:pair1,key2:pair2}
 
 Q58. What will the output of the following?
-
 var = {}
 print(type(var))
+<class 'dict'>
 Q59. How can we add an element in a dictionary?
-
+By assignment method. just assign dic[key]=value
+Code:
+dic= {
+  "a": "1",
+  "b": "2",
+  "c": "3"
+}
+dic["d"] = "4"
+print(dic)
+Using update() function, 
+code 2:
+dic= {
+  "a": "1",
+  "b": "2",
+  "c": "3"
+}
+dic.update({"d":"4"})
+print(dic)
 Q60. Create a dictionary and access all the values in that dictionary.
-
+You can access the items of a dictionary by referring to its key name, inside square brackets. There is also a method called get() that will give you the same result.
+The keys() method will return a list of all the keys in the dictionary.The values() method will return a list of all the values in the dictionary.The items() method will return each item in a dictionary, as tuples in a list.
+Code:
+dic={'a': '1', 'b': '2', 'c': '3', 'd': '4'}
+x=dic.get("c")
+print(x)
+x=dic.keys()
+print(x)
+x=dic.values()
+print(x)
+x=dic.items()
+print(x)
 Q61. Create a nested dictionary and access all the element in the inner dictionary.
-
+Code:
+dic={'A':{'a': '1'},'B':{'b': '2'},'C':{'c': '3'},'D':{'d': '4'}}
+x=dic.values()
+print(x)
+x=dic.get('A')
+print(x)
 Q62. What is the use of get() function?
-
+Access the items of a dictionary by referring to its key name.
 Q63. What is the use of items() function?
-
+Items() method will return each item in a dictionary, as tuples in a list.
 Q64. What is the use of pop() function?
-
-Q65. What is the use of popitems() function?
-
+Removes the specific item from the dictionary.
+Code:
+dic.pop("a")
+Q65. What is the use of popitem() function?
+popitem() method removes the last inserted key-value pair from the dictionary and returns it as a tuple.
+Code:
+dic.popitem()
 Q66. What is the use of keys() function?
-
+The keys() method will return a list of all the keys in the dictionary
 Q67. What is the use of values() function?
-
+The values() method will return a list of all the values in the dictionary
 Q68. What are loops in Python?
 
 Q69. How many type of loop are there in Python?
