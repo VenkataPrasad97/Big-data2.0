@@ -233,29 +233,51 @@ out=out[::-1]
 print(out)
 
 Q31. How can you delete entire string at once?
+Just re-assign '' to the string varible.
 
 Q32. What is escape sequence?
+An escape sequence is a combination of characters that has a meaning other than the literal characters contained therein.
+Also to insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
 
 Q33. How can you print the below string?
 
 'iNeuron's Big Data Course'
+Code:
+print("'iNeuron's Big Data Course'")
+
 Q34. What is a list in Python?
 
+A list can be defined as a collection of values or items of different data types. The items in the list are separated with the comma (,) and enclosed with the square brackets []. Python lists are mutable type its mean we can modify its element after it created.
+
 Q35. How can you create a list in Python?
+List is created by placing the values inside the [] and seperate elements by comma (,).
 
 Q36. How can we access the elements in a list?
+Index number is used to access the elements in a list.
 
 Q37. Write a code to access the word "iNeuron" from the given list.
-
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
+Code:
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+print(lst[4][2])
+
 Q38. Take a list as an input from the user and find the length of the list.
+Code:
+a=input()
+print(len(a))
 
 Q39. Add the word "Big" in the 3rd index of the given list.
-
 lst = ["Welcome", "to", "Data", "course"]
+Code:
+lst = ["Welcome", "to", "Data", "course"]
+lst.insert(2,"Big")
+print(lst)
 Q40. What is a tuple? How is it different from list?
+Tuples are used to store multiple items in a single variable. A tuple is a collection which is ordered and unchangeable. Difference between tuples and lists is that tuples are immutable as opposed to lists which are mutable.
 
 Q41. How can you create a tuple in Python?
+Tuple is created by placing the values inside the () and seperate elements by comma (,).
 
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
 
