@@ -423,21 +423,39 @@ The keys() method will return a list of all the keys in the dictionary
 Q67. What is the use of values() function?
 The values() method will return a list of all the values in the dictionary
 Q68. What are loops in Python?
-
+A loop is a programming structure that repeats a sequence of instructions until a specific condition is met.
 Q69. How many type of loop are there in Python?
-
+While loop
+for loop
 Q70. What is the difference between for and while loops?
-
+The 'for' loop used when we already knew the number of iterations. The 'while' loop used  when the number of iteration are not exactly known.
 Q71. What is the use of continue statement?
-
+Skips the iteration.
 Q72. What is the use of break statement?
-
+Breaks the looping.
 Q73. What is the use of pass statement?
-
+Pass is used to write empty loops
 Q74. What is the use of range() function?
-
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
 Q75. How can you loop over a dictionary?
-
+looping by keys
+code1:
+for i in dic:
+    print(i)
+code2:
+for i in dic.keys():
+    print(i)
+looping by values
+Code:
+for i in dic.values():
+    print(i)
+looping by items
+Code1:
+for i in dic.items():
+    print(i)
+Code2:
+for i in dic:
+    print(i,dic[i])
 Coding problems
 Q76. Write a Python program to find the factorial of a given number.
 
