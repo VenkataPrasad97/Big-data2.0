@@ -202,13 +202,18 @@ for i in a:
         continue
 
 Q26. What is a string? How can we declare string in Python?
+Strings are arrays of bytes representing Unicode characters.
+Strings can be created by enclosing characters inside a single quote or double-quotes.
 
 Q27. How can we access the string using its index?
+Strings are ordered sequences of character data. Indexing allows you to access individual characters in a string directly by using a numeric value. String indexing is zero-based: the first character in the string has index 0, the next is 1, and so on.
 
 Q28. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
+
+
 Q29. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
