@@ -213,12 +213,24 @@ Q28. Write a code to get the desired output of the following
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
 
+Code:
+str="Big Data iNeuron"
+out=str.split()
+print(out[2])
 
 Q29. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "norueNi"
+
+
 Q30. Resverse the string given in the above question.
+Code:
+str="Big Data iNeuron"
+split_in=str.split()
+out=split_in[2]
+out=out[::-1]
+print(out)
 
 Q31. How can you delete entire string at once?
 
