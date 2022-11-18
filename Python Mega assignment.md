@@ -13,22 +13,24 @@ Flexible and Extensible
 Extensive support libraries
 Beginer freindly
 Portable
-
 Highly scalable
-Cons:
+
+> Cons:
 Slower than compiled languages
 Security
 High memory consumption
 Complex multithreading
 
-Q4. In what all domains can we use Python?
+## Q4. In what all domains can we use Python?
+>
 Data science
 Scientific programming
 Gaming
 Web development
 OS development
 Mobile application development
-Q5. What are variable and how can we declare them?
+
+## Q5. What are variable and how can we declare them?
 Variables are the name given to the memory location.
 There is no command to declare variable in python, once we first assign value to it declaration is done.
 Q6. How can we take an input from the user in Python?
