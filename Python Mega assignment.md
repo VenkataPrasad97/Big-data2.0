@@ -62,9 +62,8 @@ Returns the quotient by truncating the decimal point, if atlest one of the opera
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
-
-```
 Code:
+```
 print('iNeuron'*4)
 ```
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
