@@ -1,14 +1,14 @@
-## Assignment Part-1
+# Assignment Part-1
 
-Q1. Why do we call Python as a general purpose and high-level programming language?
-Python’s readability makes it a great first programming language.
+## Q1. Why do we call Python as a general purpose and high-level programming language?
+> Python’s readability makes it a great first programming language.
 Python is easy to use, runs on any platform and extensive support libraries.
 Python (High Level Language) is designed to be used by the human operator or the programmer. They are referred to as "closer to humans." In other words, their programming style and context is easier to learn and implement than low-level languages, and the entire code generally focuses on the specific program to be created.
 
-Q2. Why is Python called a dynamically typed language?
-In dynamically typed languages, type checking takes place at runtime or execution time. This means that variables are checked against types only when the program is executing.
-Q3. List some pros and cons of Python programming language?
-Pros:
+## Q2. Why is Python called a dynamically typed language?
+> In dynamically typed languages, type checking takes place at runtime or execution time. This means that variables are checked against types only when the program is executing.
+## Q3. List some pros and cons of Python programming language?
+> Pros:
 Flexible and Extensible
 Extensive support libraries
 Beginer freindly
