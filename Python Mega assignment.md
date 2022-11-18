@@ -458,53 +458,159 @@ for i in dic:
     print(i,dic[i])
 Coding problems
 Q76. Write a Python program to find the factorial of a given number.
-
+a=int(input())
+b=1
+for i in range(a):
+    b*=i+1
+print(b)
 Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (PRT)/100
-
+p=10000
+r=5 #rate of interest
+t=10 #time in years
+print(p*r*t/100)
 Q78. Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t.
-
+p=10000
+r=5 #rate of interest
+t=10 #time in years
+print(p*(1+r/100)**t)
 Q79. Write a Python program to check if a number is prime or not.
-
+a=int(input())
+c=True
+for i in range(a):
+    if (i+1)**2>=a:
+        b=i+1
+        break
+for i in range(b):
+    if i==0:
+        continue
+    if a%(i+1)==0:
+        c=False
+if c is False:
+    print("Not Prime")
+else:
+    print("Prime")
 Q80. Write a Python program to check Armstrong Number.
-
+a=input()
+b=len(a)
+d=0
+for i in a:
+    c=int(i)
+    d+=c**b
+if int(a)==d:
+    print("Armstrong number")
+else:
+    print("Not an armstrong number")
 Q81. Write a Python program to find the n-th Fibonacci Number.
-
+n=int(input())
+a=0
+b=1
+for i in range(n):
+    if i ==0:
+        continue
+    c=b+a
+    b=a
+    a=c
+print(c)
 Q82. Write a Python program to interchange the first and last element in a list.
-
+lst=[1,2,3,4,5]
+a=lst[0]
+lst[0]=lst[-1]
+lst[-1]=a
+print(lst)
 Q83. Write a Python program to swap two elements in a list.
-
+lst=[1,2,3,4,5]
+b,c=input("Enter index of elements to swap:").split()
+b=int(b)
+c=int(c)
+a=lst[b]
+lst[b]=lst[c]
+lst[c]=a
+print(lst)
 Q84. Write a Python program to find N largest element from a list.
-
+lst=[180, 231, 12, 33, 4, 1, 63, 70, 55, 120, 190, 121, 52, 43, 60, 81, 96, 87, 101, 149]
+lst.sort(reverse=True)
+a=int(input())
+for i in range(a):
+    print(lst[i])
 Q85. Write a Python program to find cumulative sum of a list.
-
+lst=[180, 231, 12, 33, 4, 1, 63, 70, 55, 120, 190, 121, 52, 43, 60, 81, 96, 87, 101, 149]
+a=0
+for i in lst:
+    a+=i
+print(a)
 Q86. Write a Python program to check if a string is palindrome or not.
-
+in_str=input()
+rev_str=in_str[::-1]
+if rev_str == in_str:
+    print("Palindrome")
+else:
+    print("Not palindrome")
 Q87. Write a Python program to remove i'th element from a string.
+# in_str=input()
+in_str="VenkataPrasadK"
+# i=int(input())
+i=7
+out_str=in_str[:i-1]+in_str[i:]
+print(out_str)
 
 Q88. Write a Python program to check if a substring is present in a given string.
-
+#method1
+in_str="VenkataPrasadK"
+if "Prasad" in in_str:
+    print("Substring")
+else:
+    print("Not a subsstring")
+#mothod 2
+if in_str.find("Prasad") >=0:
+    print("Substring")
+else:
+    print("Not a substring")
 Q89. Write a Python program to find words which are greater than given length k.
-
+in_str="VenkataPrasadK"
+k=5
+print(in_str[k:])
 Q90. Write a Python program to extract unquire dictionary values.
-
+dic={'Tim': 18,'Charlie':23,'Tiffany':22,'Robert':25,'Venkat':25,'Manohar':22,'Akhill':23}
+print(set(dic.values()))
 Q91. Write a Python program to merge two dictionary.
 
 Q92. Write a Python program to convert a list of tuples into dictionary.
-
 Input : [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
 Output : {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
+in_lst=[('Sachin',10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+dic={}
+for i,j in in_lst:
+    dic[i]=j
+print(dic)
 Q93. Write a Python program to create a list of tuples from given list having number and its cube in each tuple.
-
 Input: list = [9, 5, 6]
 Output: [(9, 729), (5, 125), (6, 216)]
+in_lst=[9, 5, 6]
+out_lst=[]
+for i in in_lst:
+    out_lst.append([i,i**3])
+print(out_lst)
 Q94. Write a Python program to get all combinations of 2 tuples.
-
 Input : test_tuple1 = (7, 2), test_tuple2 = (7, 8)
 Output : [(7, 7), (7, 8), (2, 7), (2, 8), (7, 7), (7, 2), (8, 7), (8, 2)]
+test_tuple1 = (7, 2)
+test_tuple2 = (7, 8)
+out_lst=[]
+for i in test_tuple1:
+    for j in test_tuple2:
+        a=(i,j)
+        out_lst.append(a)
+for i in test_tuple2:
+    for j in test_tuple1:
+        a=(i,j)
+        out_lst.append(a)  
+print(out_lst)
 Q95. Write a Python program to sort a list of tuples by second item.
-
 Input : [('for', 24), ('Geeks', 8), ('Geeks', 30)] 
 Output : [('Geeks', 8), ('for', 24), ('Geeks', 30)]
+in_lst=[('for', 24), ('Geeks', 8), ('Geeks', 30)]
+in_lst.sort(key=lambda x:x[1]) 
+print(in_lst)
 Q96. Write a python program to print below pattern.
 
 * 
@@ -512,6 +618,10 @@ Q96. Write a python program to print below pattern.
 * * * 
 * * * * 
 * * * * * 
+
+for i in range(5):
+    print((i+1)*"* ")
+
 Q97. Write a python program to print below pattern.
 
     *
@@ -519,6 +629,9 @@ Q97. Write a python program to print below pattern.
   ***
  ****
 *****
+
+for i in range(5):
+    print((5-i)*" "+(i+1)*"*")
 Q98. Write a python program to print below pattern.
 
     * 
@@ -526,6 +639,10 @@ Q98. Write a python program to print below pattern.
   * * * 
  * * * * 
 * * * * * 
+
+n=5
+for i in range(n):
+    print((n-i)*" "+(i+1)*"* ")
 Q99. Write a python program to print below pattern.
 
 1 
@@ -533,6 +650,15 @@ Q99. Write a python program to print below pattern.
 1 2 3 
 1 2 3 4 
 1 2 3 4 5
+
+n=5
+for i in range(n):
+    a=""
+    for j in range(i+1):
+        b=j+1
+        b=str(b)
+        a+=" "+b
+    print(a)
 Q100. Write a python program to print below pattern.
 
 A 
@@ -540,3 +666,9 @@ B B
 C C C 
 D D D D 
 E E E E E 
+
+lst=['A','B','C','D','E']
+a=0
+for i in lst:
+    a+=1
+    print((a)*i)
