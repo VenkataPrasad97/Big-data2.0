@@ -51,62 +51,21 @@ input().split(separator, maxsplit)
 ## Q13. How can we throw some output in Python?
 > Using print() function
 ## Q14. What are operators in Python?
-> Python Operators are used to perform operations on values and variables. These are standard symbols used for the purpose of logical and arithmetic operations
-- + Addition: adds two operands
-- - Subtraction: subtracts two operands
-- + Multiplication: multiplies two operands
-- / Division (float): divides the first operand by the second
-- // Division (floor): divides the first operand by the second
-- % Modulus: returns the remainder when the first operand is divided by the second
-- ** Power: Returns first raised to power second
-- '>' Greater than: True if the left operand is greater than the right
-- < Less than: True if the left operand is less than the right
-- == Equal to: True if both operands are equal
-- != Not equal to – True if operands are not equal
-- >= Greater than or equal to True if the left operand is greater than or equal to the right
-- <= Less than or equal to True if the left operand is less than or equal to the right
-- is  x is the same as y
-- is not x is not the same as y
-- = is an assignment operator and == comparison operator
-- and Logical AND: True if both the operands are true
-- or Logical OR: True if either of the operands is true
-- not Logical NOT: True if the operand is false
-- & Bitwise AND
-- | Bitwise OR
-- ~ Bitwise NOT
-- ^ Bitwise XOR
-- '>>' Bitwise right shift
-- << Bitwise left shift
-- = Assign value of right side of expression to left side operand  x = y + z
-- += Add AND: Add right-side operand with left side operand and then assign to left operand a+=b     a=a+b
-- -= Subtract AND: Subtract right operand from left operand and then assign to left operand a-=b     a=a-b
-- *= Multiply AND: Multiply right operand with left operand and then assign to left operand a*=b     a=a*b
-- /= Divide AND: Divide left operand with right operand and then assign to left operand a/=b     a=a/b
-- %= Modulus AND: Takes modulus using left and right operands and assign the result to left operand a%=b     a=a%b
-- //= Divide(floor) AND: Divide left operand with right operand and then assign the value(floor) to left operand a//=b     a=a//b
-- ** = Exponent AND: Calculate exponent(raise power) value using operands and assign value to left operand
-- &= Performs Bitwise AND on operands and assign value to left operand
-- |= Performs Bitwise OR on operands and assign value to left operand
-- ^= Performs Bitwise xOR on operands and assign value to left operand
-- >>= Performs Bitwise right shift on operands and assign value to left operand
-- <<= Performs Bitwise left shift on operands and assign value to left operand
-- is          True if the operands are identical
-- is not      True if the operands are not identical
-- in            True if value is found in the sequence
-- not in        True if value is not found in the sequence
+> Python Operators are used to perform operations on values and variables. These are standard symbols used for the purpose of logical and arithmetic operations.
 ## Q15. What is difference between / and // operators?
- /- Float division
+> /- Float division
 The quotient returns by this operator is always a float number, no matter if two numbers are integer.
- //- Integer division
+> //- Integer division
 Returns the quotient by truncating the decimal point, if atlest one of the operands are float it returns the float number as quotient but it truncates the decimal before it return the value.
-Q16. Write a code that gives following as an output.
+## Q16. Write a code that gives following as an output.
 
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
 
-Code:
+```Code:
 print('iNeuron'*4)
+```
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 Code:
 a=int(input())
