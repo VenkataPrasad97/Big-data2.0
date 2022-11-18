@@ -1,5 +1,4 @@
 # Assignment Part-1
-
 ## Q1. Why do we call Python as a general purpose and high-level programming language?
 > Python’s readability makes it a great first programming language.
 Python is easy to use, runs on any platform and extensive support libraries.
@@ -23,12 +22,12 @@ Complex multithreading
 
 ## Q4. In what all domains can we use Python?
 >
-Data science
-Scientific programming
-Gaming
-Web development
-OS development
-Mobile application development
+-Data science
+-Scientific programming
+-Gaming
+-Web development
+-OS development
+-Mobile application development
 
 ## Q5. What are variable and how can we declare them?
 Variables are the name given to the memory location.
