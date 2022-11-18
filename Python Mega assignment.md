@@ -701,6 +701,7 @@ for i in range(5):
 ## Q98. Write a python program to print below pattern.
 ```
     * 
+   * *
   * * *
  * * * *
 * * * * *
