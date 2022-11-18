@@ -66,21 +66,21 @@ Code:
 ```
 print('iNeuron'*4)
 ```
-Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+## Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 Code:
+```
 a=int(input())
 if a%2==0:
     print('even')
 else:
     print('odd')
-
-Q18. What are boolean operator?
-Boolean Operators are simple words (AND, OR & NOT) used to return True or False.
-and Logical AND: True if both the operands are true
-or Logical OR: True if either of the operands is true
-not Logical NOT: True if the operand is false
-
-Q19. What will the output of the following?
+```
+## Q18. What are boolean operator?
+> Boolean Operators are simple words (AND, OR & NOT) used to return True or False.
+- and Logical AND: True if both the operands are true
+- or Logical OR: True if either of the operands is true
+- not Logical NOT: True if the operand is false
+## Q19. What will the output of the following?
 
 ```
 1 or 0
@@ -93,44 +93,46 @@ True and False and True
 ```
 
 Code:
+```
 print(1 or 0)
 print(0 or 0)
 print(True and False and True)
 print(1 or 0 or 0)
-
-Q20. What are conditional statements in Python?
-Python has 3 Conditional Statements that you should know:
-if statement
-if-else statement
-if-elif-else ladder
-Q21. What is use of 'if', 'elif' and 'else' keywords?
-if: statement for condition
-elif: short form of else if. Allows to check multiple expressions
-else: statement for failed condition (otherwise)
-Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+```
+## Q20. What are conditional statements in Python?
+> Python has 3 Conditional Statements that you should know:
+- if statement
+- if-else statement
+- if-elif-else ladder
+## Q21. What is use of 'if', 'elif' and 'else' keywords?
+- if: statement for condition
+- elif: short form of else if. Allows to check multiple expressions
+- else: statement for failed condition (otherwise)
+## Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 Code:
+```
 a=int(input())
 if a>=18:
     print('I can vote')
 else:
     print("I can't vote")
-
-Q23. Write a code that displays the sum of all the even numbers from the given list.
-
+```
+## Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
-
 Code:
+```
 a=[12, 75, 150, 180, 145, 525, 50]
 b=0
 for i in a:
     if i%2==0:
         b+=i
 print(b)
-
-Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+```
+## Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
 Code:
+```
 a,b,c=input().split()
 a=int(a)
 b=int(b)
@@ -141,20 +143,19 @@ elif b>a and b>c:
     print(b)
 else:
     print(c)
-
-Q25. Write a program to display only those numbers from a list that satisfy the following conditions
-
+```
+## Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+```
 + The number must be divisible by five
 
 + If the number is greater than 150, then skip it and move to the next number
 
 + If the number is greater than 500, then stop the loop
 
-```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
-
 Code:
+```
 a=[12, 75, 150, 180, 145, 525, 50]
 for i in a:
     if i%5==0:
@@ -165,74 +166,88 @@ for i in a:
         print(i)
     else:
         continue
+```
+## Q26. What is a string? How can we declare string in Python?
+> Strings are arrays of bytes representing Unicode characters.
+>Strings can be created by enclosing characters inside a single quote or double-quotes.
+## Q27. How can we access the string using its index?
+> Strings are ordered sequences of character data. Indexing allows you to access individual characters in a string directly by using a numeric value. String indexing is zero-based: the first character in the string has index 0, the next is 1, and so on.
 
-Q26. What is a string? How can we declare string in Python?
-Strings are arrays of bytes representing Unicode characters.
-Strings can be created by enclosing characters inside a single quote or double-quotes.
-
-Q27. How can we access the string using its index?
-Strings are ordered sequences of character data. Indexing allows you to access individual characters in a string directly by using a numeric value. String indexing is zero-based: the first character in the string has index 0, the next is 1, and so on.
-
-Q28. Write a code to get the desired output of the following
-
+## Q28. Write a code to get the desired output of the following
+```
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
-
+```
 Code:
+```
 str="Big Data iNeuron"
 out=str.split()
 print(out[2])
-
-Q29. Write a code to get the desired output of the following
-
+```
+## Q29. Write a code to get the desired output of the following
+```
 string = "Big Data iNeuron"
 desired_output = "norueNi"
-
-Q30. Resverse the string given in the above question.
+```
 Code:
+```
 str="Big Data iNeuron"
 split_in=str.split()
 out=split_in[2]
 out=out[::-1]
 print(out)
+```
+## Q30. Resverse the string given in the above question.
+Code:
+```
+str="Big Data iNeuron"
+split_in=str.split()
+out=split_in[2]
+out=out[::-1]
+print(out)
+```
+## Q31. How can you delete entire string at once?
+> Just re-assign '' to the string varible.
 
-Q31. How can you delete entire string at once?
-Just re-assign '' to the string varible.
-
-Q32. What is escape sequence?
-An escape sequence is a combination of characters that has a meaning other than the literal characters contained therein.
+## Q32. What is escape sequence?
+> An escape sequence is a combination of characters that has a meaning other than the literal characters contained therein.
 Also to insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
 
-Q33. How can you print the below string?
-
+## Q33. How can you print the below string?
+```
 'iNeuron's Big Data Course'
+```
 Code:
+```
 print("'iNeuron's Big Data Course'")
+```
 
-Q34. What is a list in Python?
+## Q34. What is a list in Python?
+> A list can be defined as a collection of values or items of different data types. The items in the list are separated with the comma (,) and enclosed with the square brackets []. Python lists are mutable type its mean we can modify its element after it created.
 
-A list can be defined as a collection of values or items of different data types. The items in the list are separated with the comma (,) and enclosed with the square brackets []. Python lists are mutable type its mean we can modify its element after it created.
+## Q35. How can you create a list in Python?
+> List is created by placing the values inside the [] and seperate elements by comma (,).
 
-Q35. How can you create a list in Python?
-List is created by placing the values inside the [] and seperate elements by comma (,).
+## Q36. How can we access the elements in a list?
+> Index number is used to access the elements in a list.
 
-Q36. How can we access the elements in a list?
-Index number is used to access the elements in a list.
-
-Q37. Write a code to access the word "iNeuron" from the given list.
+## Q37. Write a code to access the word "iNeuron" from the given list.
+```
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
-
+```
 Code:
+```
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
 print(lst[4][2])
-
-Q38. Take a list as an input from the user and find the length of the list.
+```
+## Q38. Take a list as an input from the user and find the length of the list.
 Code:
+```
 a=input()
 print(len(a))
-
-Q39. Add the word "Big" in the 3rd index of the given list.
-lst = ["Welcome", "to", "Data", "course"]
+```
+## Q39. Add the word "Big" in the 3rd index of the given list.
+```lst = ["Welcome", "to", "Data", "course"]```
 Code:
 lst = ["Welcome", "to", "Data", "course"]
 lst.insert(2,"Big")
