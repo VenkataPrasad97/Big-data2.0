@@ -208,7 +208,11 @@ print(out)
 ```
 ## Q31. How can you delete entire string at once?
 > Just re-assign '' to the string varible.
-
+> We can use del() function.
+```
+in_str="Venkat"
+del(in_str)
+```
 ## Q32. What is escape sequence?
 > An escape sequence is a combination of characters that has a meaning other than the literal characters contained therein.
 Also to insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
