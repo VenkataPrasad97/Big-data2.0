@@ -1,9 +1,11 @@
 # Python OOP Assignment
 
 ## Q1. What is the purpose of Python's OOP?
+>
 > The purpose of Python's OOP is to organize code into reusable, modular structures called classes, which can be used to create objects. OOP allows for encapsulation, inheritance, and polymorphism, making it easier to write and maintain large, complex programs.
 
 ## Q2. Where does an inheritance search look for an attribute?
+>
 > An inheritance search looks for an attribute first in the instance, then in the class, and finally in any superclasses.
 
 ## Q3. How do you distinguish between a class object and an instance object?
