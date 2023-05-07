@@ -166,6 +166,7 @@ df['B'] = 2 * df['A']
 ```
 df.drop_duplicates()
 ```
+
 ## Q25. What is the difference between .loc and .iloc in Pandas?
 >
 > .loc and .iloc are both indexing methods in Pandas, but they differ in how they refer to the rows and columns of a DataFrame.
