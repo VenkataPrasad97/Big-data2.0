@@ -1,0 +1,4 @@
+[ 2023-05-16 19:47:59,366 ] 2270 py4j.java_gateway - INFO - Callback Server Starting
+[ 2023-05-16 19:47:59,366 ] 2272 py4j.java_gateway - INFO - Socket listening on ('127.0.0.1', 34177)
+[ 2023-05-16 19:48:08,244 ] 525 py4j.clientserver - INFO - Python Server ready to receive messages
+[ 2023-05-16 19:48:08,245 ] 539 py4j.clientserver - INFO - Received command c on object id p0
