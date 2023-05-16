@@ -1,0 +1,1 @@
+{"id":"iUoacjJVIKt9MHxd","clusterName":"Cluster PasswordAuthenticator","keyspace":"ineuron","body":"select * from ineuron.employee;","modified":true,"filename":"script_1.cql","source":"action"}

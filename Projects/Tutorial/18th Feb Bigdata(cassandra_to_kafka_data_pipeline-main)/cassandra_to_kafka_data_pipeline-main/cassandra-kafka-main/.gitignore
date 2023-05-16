@@ -1,3 +1,4 @@
+/.vscode
 /cassandra_data
 /kafka_data
 /zookeeper_data
