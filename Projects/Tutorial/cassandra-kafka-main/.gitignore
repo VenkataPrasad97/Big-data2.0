@@ -1,7 +1,7 @@
-# /.vscode
-# /cassandra_data
-# /kafka_data
-# /zookeeper_data
-# /pyspark_data
-# CQL_SCRIPT.cql
-# docker-compose.yml
+/.vscode
+/cassandra_data
+/kafka_data
+/zookeeper_data
+/pyspark_data
+CQL_SCRIPT.cql
+docker-compose.yml
